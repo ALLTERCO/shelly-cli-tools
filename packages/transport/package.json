@@ -1,0 +1,19 @@
+{
+  "name": "@allterco/transport",
+  "version": "0.0.2",
+  "description": "WebSocket and UDP transport for Shelly",
+  "type": "module",
+  "author": "Allterco Robotics EOOD",
+  "dependencies": {
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.allterco.net:Shelly/fw/em3lite-calibration.git"
+  },
+  "license": "ISC"
+}

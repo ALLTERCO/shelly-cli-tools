@@ -1,0 +1,17 @@
+{
+  "name": "@allterco/shelly",
+  "version": "0.0.1",
+  "description": "Shelly devices abstraction",
+  "type": "module",
+  "main": "shelly.js",
+  "author": "Allterco Robotics EOOD",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.allterco.net:Shelly/fw/em3lite-calibration.git"
+  },
+  "license": "ISC"
+}

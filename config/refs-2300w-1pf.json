@@ -1,0 +1,8 @@
+{
+  "voltage": 230,
+  "current": 10,
+  "apower": 2300,
+  "aprtpower": 2300,
+  "pf": 1,
+  "frequency": 50
+}

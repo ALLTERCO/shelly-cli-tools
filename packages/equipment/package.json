@@ -1,0 +1,15 @@
+{
+    "name": "@allterco/equipment",
+    "version": "0.0.1",
+    "description": "it8615 SCPI control and measurement",
+    "type": "module",
+    "main": "it8615.js",
+    "author": "Allterco Robotics EOOD",
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git@gitlab.allterco.net:Shelly/fw/em3lite-calibration.git"
+    },
+    "license": "ISC"
+  }
+  

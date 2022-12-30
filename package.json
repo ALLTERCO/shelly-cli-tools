@@ -1,0 +1,27 @@
+{
+  "name": "shelly-pro3em-tools",
+  "version": "0.0.1",
+  "description": "Pro3EMLite Tools",
+  "type": "module",
+  "scripts": {},
+  "bin": {
+    "3em-fetch": "./bin/fetch.js",
+    "3em-read": "./bin/read.js"
+  },
+  "author": "Allterco EOOD",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@allterco/equipment": "file:packages/equipment/*",
+    "@allterco/shelly": "file:packages/shelly/*",
+    "@allterco/transport": "file:packages/transport/*",
+    "cli-progress": "^3.11.2",
+    "commander": "^9.4.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^9.1.0",
+    "serverline": "^1.6.0",
+    "ws": "^8.8.0"
+  }
+}
