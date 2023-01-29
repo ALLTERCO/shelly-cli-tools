@@ -31,7 +31,7 @@ class Shelly extends EventEmitter {
   }
   async onTransportConnect() {
     this.info = await this.getInfo();
-    this.emit('connect')
+    this.emit('connect');
   }
   onTransportMessage(message) {
     this.messageHandler(message);
